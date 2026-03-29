@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -e \"const { PIIDetector } = require('./dist/detector'); const d = new PIIDetector(); const { result } = d.pseudonymize('alice@acme.com'); if (result === 'EMAIL_1') { console.log('Test Passed'); process.exit(0); } else { console.error('Test Failed:', result); process.exit(1); }\""
   },
   "keywords": [
     "pii",
