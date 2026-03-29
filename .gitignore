@@ -1,0 +1,30 @@
+# Node.js
+js/node_modules/
+js/dist/
+js/package-lock.json
+.npmrc
+
+# Python
+python/dist/
+python/build/
+python/shieldpipe.egg-info/
+python/__pycache__/
+python/shieldpipe/__pycache__/
+python/tests/__pycache__/
+.pytest_cache/
+*.pyc
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# ShieldPipe
+shieldpipe-vault.enc
+shieldpipe-audit/
+shieldpipe.json
