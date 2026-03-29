@@ -4,7 +4,7 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/tarundevx/shieldpipe/ci.yml?style=flat-square)](https://github.com/tarundevx/shieldpipe/actions)
 [![npm](https://img.shields.io/npm/v/shieldpipe?style=flat-square&label=npm)](https://www.npmjs.com/package/shieldpipe)
-[![PyPI](https://img.shields.io/pypi/v/shieldpipe?style=flat-square)](https://pypi.org/project/shieldpipe/)
+[![PyPI](https://img.shields.io/pypi/v/shieldpipe?style=flat-square&label=pypi)](https://pypi.org/project/shieldpipe/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
 ```
